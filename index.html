@@ -1,18 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawtar's Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #fce4ec, #e8d5ff);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            color: #8e44ad;
+            font-size: 42px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 5px 20px #0002;
+        }
+
+        .card h2 {
+            color: #d63384;
+        }
+
+        button {
+            background: #8e44ad;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #d63384;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Hello 👋</h1>
+    <header>
+        <h1>✨ Welcome to My World ✨</h1>
+        <p>Hi, I'm Kawtar — Digital Development Student 💻</p>
+        <button>Discover More</button>
+    </header>
 
-    <p>Welcome to my first website!</p>
+    <div class="container">
 
-    <h2>About Me</h2>
+        <div class="card">
+            <h2>💻 Development</h2>
+            <p>I love creating websites and learning new technologies.</p>
+        </div>
 
-    <p>I am learning HTML and GitHub.</p>
+        <div class="card">
+            <h2>🎨 Design</h2>
+            <p>I enjoy creating beautiful and simple interfaces.</p>
+        </div>
+
+        <div class="card">
+            <h2>🚀 My Goal</h2>
+            <p>Become a professional developer and build amazing projects.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Made with ❤️ by Kawtar</p>
+    </footer>
 
 </body>
 </html>
